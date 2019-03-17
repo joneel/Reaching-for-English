@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Justin's Desktop\Desktop\Publish</_PublishTargetUrl>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAO8/B6nqMY02oznjFjQld4wAAAAACAAAAAAAQZgAAAAEAACAAAAC4kxTquWfryfc0NbeajkVGaYQQquGkO8O2ajA0VbKjAAAAAAAOgAAAAAIAACAAAABGACrmYtREA7gyne1pPGEol9JLbvXd5dXF4qXBVe/5eCAAAACZQYgr9QXd7Vuz3d7kN3jRIWSD3J692BSFtlNYh+7JE0AAAACXV+XKA0wrtt8lUve4UPDV99LUHtMjljMRSv1Li6FY4g080ZxbAU2Jidzkt6Md36XVJrc/VU0MlG9ohP0Dcfpf</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AddDeleteSurvey.aspx">
+      <publishTime>02/09/2019 16:35:48</publishTime>
+    </File>
+    <File Include="AddTopic.aspx">
+      <publishTime>12/10/2018 01:34:03</publishTime>
+    </File>
+    <File Include="Audio/Addiction_to_social_media.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Addiction_To_Social_Media_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/A_Good_Friend.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/A_Good_Friend_Teacher_Indepedent.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/A_Good_House.mp3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/A_Good_House_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/A_Good_Job_For_You.mp3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/A_Good_Job_For_You_Teacher_Independent.mp3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Boyfriend.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Buying_a_Dress.mp3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Buying_a_Dress_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Clean_Water.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Clean_Water_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Copy of Taking_a_Class.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Creating_a_Life_Plan.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Creating_a_Life_Plan_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Cultural_Differences.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Cultural_Differences_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Fighting_For_Girls_Rights_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Food_for_our_party.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/Food_For_Our_Party_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:07</publishTime>
+    </File>
+    <File Include="Audio/food_for_party.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Free_Time.mp3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Free_Time_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Getting_started_first_day_on_job.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Getting_Started_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Going_to_Rivas.mp3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Going_To_Rivas_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/good_house.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Human_Rights.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Kids_who_make_a_difference.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Kids_Who_Make_A_Difference_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Lost.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Lost_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/making_plans_my_party.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/making_plans_my_party_.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Mark_Twain_Nicaraguan_visitor.mp3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Mark_Twain_Nicaraguan_Visitor_Teacher_Independent.mp3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/my_cousins_visit.MP3">
+      <publishTime>02/11/2019 09:09:23</publishTime>
+    </File>
+    <File Include="Audio/My_Cousin_s_Visit.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/My_Cousin_Visits_Teacher_Indepedent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/My_Party_Next_Weekend_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/my_town.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/My_Town_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/National_Flags_Teacher_Indenpendent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Occupations_a_good_job.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Paper_And_A_Pencil_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Paper_and_Pencil.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Planning_Transportation.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Planning_Transportation_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Sick.mp3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Sick_Teacher_Independent.mp3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Taking_a_Class.MP3">
+      <publishTime>02/11/2019 09:09:22</publishTime>
+    </File>
+    <File Include="Audio/Taking_A_Class_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/The_Boyfriend.mp3">
+      <publishTime>12/13/2018 14:31:21</publishTime>
+    </File>
+    <File Include="Audio/The_Boyfriend_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/The_Twins.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/The_Twins_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/this_weekend.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/This_Weekend_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Tsunamis.mp3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Tsunamis_Teacher_Independent.mp3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/What_are_naming_laws.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/When_Parents_Name_Babies_Teacher_Independent.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="Audio/Which_Flag_Does_She_Want.MP3">
+      <publishTime>02/24/2019 10:00:08</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>02/24/2019 10:51:22</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>02/24/2019 10:51:22</publishTime>
+    </File>
+    <File Include="bin/Google.Protobuf.dll">
+      <publishTime>12/21/2017 20:23:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>06/28/2018 16:52:08</publishTime>
+    </File>
+    <File Include="bin/ReachingForEnglishWebsiteV3.dll">
+      <publishTime>02/24/2019 10:51:16</publishTime>
+    </File>
+    <File Include="bin/ReachingForEnglishWebsiteV3.pdb">
+      <publishTime>02/24/2019 10:51:16</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/desktop.ini">
+      <publishTime>12/12/2018 13:21:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/System.Threading.Tasks.Dataflow.dll">
+      <publishTime>09/27/2018 10:32:21</publishTime>
+    </File>
+    <File Include="ChooseFile.aspx">
+      <publishTime>12/10/2018 01:34:03</publishTime>
+    </File>
+    <File Include="credentials.txt">
+      <publishTime>12/13/2018 14:23:02</publishTime>
+    </File>
+    <File Include="DeleteTopic.aspx">
+      <publishTime>12/13/2018 14:58:46</publishTime>
+    </File>
+    <File Include="EnterLessonName.aspx">
+      <publishTime>12/10/2018 01:34:03</publishTime>
+    </File>
+    <File Include="EnterText.aspx">
+      <publishTime>12/10/2018 01:31:47</publishTime>
+    </File>
+    <File Include="Environment/colors.php">
+      <publishTime>12/13/2018 14:33:25</publishTime>
+    </File>
+    <File Include="Environment/envQuery.php">
+      <publishTime>12/13/2018 14:33:25</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>02/10/2019 16:50:45</publishTime>
+    </File>
+    <File Include="FileViewer.aspx">
+      <publishTime>02/09/2019 14:37:22</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/28/2018 11:55:56</publishTime>
+    </File>
+    <File Include="Home.aspx">
+      <publishTime>02/24/2019 09:40:34</publishTime>
+    </File>
+    <File Include="Lessons/colors.php">
+      <publishTime>12/13/2018 14:34:02</publishTime>
+    </File>
+    <File Include="Lessons/lessonQuery.php">
+      <publishTime>12/13/2018 14:34:02</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>02/10/2019 16:53:01</publishTime>
+    </File>
+    <File Include="PDF/A Good Friend Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/A Good House Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/A Good House.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/A Good Job For You Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/A Good job for you.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Addiction To Social Media Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Buying A Dress Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Buying a dress.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Choose a Tour A.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Choose A Tour Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Choose a Tour B.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Choose a Tour C.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Choose a Tour D.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Clean Water Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Colors Around The World A.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Colors Around The World B.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Colors Around The World Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Creating a Life Plan Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Cultural Differences Teacher Indepedent.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Do you know A.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Do You Know Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Do you know B.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Do Your Work Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Environment Interview Question 1.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Environment Interview Question 10.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Environment Interview Question 11.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Environment Interview Question 12.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Environment Interview Question 13.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Environment Interview Question 2.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Environment Interview Question 3.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Environment Interview Question 4.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Environment Interview Question 5.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Environment Interview Question 6.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Environment Interview Question 7.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Environment Interview Question 8.pdf">
+      <publishTime>02/24/2019 09:59:47</publishTime>
+    </File>
+    <File Include="PDF/Environment Interview Question 9.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Environment Interviews Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Family Trip A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Family Trip B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Family Trip C.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Family Trip D.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Family Trip Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Fighting For Girls Rights Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Find the Differences A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Find The Differences Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Find the Differences B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Flags of the World A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Flags Of The World Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Flags of the World B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Flags of the World C.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Flags of the World D.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Food For Our Party Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Food for our party.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Free Time Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Free Time.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Fun Activities Bingo 2 Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Fun Activities Bingo Card A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Fun Activities Bingo Card B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Fun Activities Bingo Card C.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Fun Activities Bingo Card D.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Fun Activities Bingo Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Getting Started Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Getting started.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Going To Rivas Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Going to Rivas.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Human Rights Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/I Am Looking For A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/I Am Looking For Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/I Am Looking For B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/I Am Looking For C.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Im looking for A.pdf">
+      <publishTime>12/13/2018 14:31:44</publishTime>
+    </File>
+    <File Include="PDF/Im looking for B.pdf">
+      <publishTime>12/13/2018 14:31:44</publishTime>
+    </File>
+    <File Include="PDF/Im looking for C.pdf">
+      <publishTime>12/13/2018 14:31:44</publishTime>
+    </File>
+    <File Include="PDF/Important places Bingo Card A%281%29.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Important places Bingo Card A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Important places Bingo Card B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Important places Bingo Card C.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Important places Bingo Card D.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Important Places Bingo Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/It Hurts 1.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/It Hurts 2.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/It Hurts 3.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/It Hurts 4.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/It Hurts 5.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/It Hurts 6.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/It Hurts 7.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/It Hurts Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Jobs Bingo Card A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Jobs Bingo Card B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Jobs Bingo Card C.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Jobs Bingo Card D.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Kids Who Make A Difference Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan C.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan D.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan E.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan F.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan G.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan H.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan I.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan J.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan K.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan L.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan M.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan N.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan O.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan P.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan Q.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan R.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan S.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan T.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plan U.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Life Plans Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Lost Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Lost.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Mark Twain Nicaraguan Visitor Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/My Cousin Visits Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/My cousins visit.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/My Party Next Week Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/My party next week.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/My Room A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/My Room Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/My Room B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/My Town Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/My town.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/National Flags Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/National flags.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/On My Plate Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/On My Plate.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Paper And A Pencil Teacher Form .pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Paper and a pencil.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Paper_And_A_Pencil_Teacher_Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Parenting Around The World Interview A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Parenting Around The World Interview B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Parenting Around The World Interview C.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Parenting Around The World Interview D.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Parenting Around The World Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Parents and Children Debate Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Pictures Of Community A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Pictures Of Community B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Pictures of Community Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Planning Our Weekend Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Planning Our Weekend.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Planning Transportation Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Planning transportation.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Road Trip A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Road Trip Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Road Trip B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Same closet A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Same Closet Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Same closet B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Sick Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Sick.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Similarities And Differences A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Similarities and Differences Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Similarities And Differences B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Similarities And Differences C.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Similarities And Differences D.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Taking A Class Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Taking a Class.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form A Good House.pdf">
+      <publishTime>12/13/2018 14:31:45</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form A Good Job for You.pdf">
+      <publishTime>12/13/2018 14:31:45</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Buying a dress.pdf">
+      <publishTime>12/13/2018 14:31:45</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Choose a Tour Activity.pdf">
+      <publishTime>12/13/2018 14:31:45</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Do you know.pdf">
+      <publishTime>12/13/2018 14:31:45</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Do your Work.pdf">
+      <publishTime>12/13/2018 14:31:45</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Find the differences.pdf">
+      <publishTime>12/13/2018 14:31:45</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Flags of the world.pdf">
+      <publishTime>12/13/2018 14:31:45</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Food for our party.pdf">
+      <publishTime>12/13/2018 14:31:45</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Free Time.pdf">
+      <publishTime>12/13/2018 14:31:45</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Fun Activities Bingo.pdf">
+      <publishTime>12/13/2018 14:31:45</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Getting Started.pdf">
+      <publishTime>12/13/2018 14:31:45</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Going to Rivas.pdf">
+      <publishTime>12/13/2018 14:31:45</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Im looking for.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Important places Bingo.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form It hurts.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Lost.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form My Cousins Visit.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form My Party Next Weekend.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form My Room.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form My Town.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form National Flags.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form On my plate.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Paper and a pencil.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Planning Our Weekend.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Planning Transportation.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Road Trip Activity.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Same closet.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Sick.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Taking a Class.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form The Boyfriend.pdf">
+      <publishTime>12/13/2018 14:31:43</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form This Weekend.pdf">
+      <publishTime>12/13/2018 14:31:44</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form What am I doing.pdf">
+      <publishTime>12/13/2018 14:31:44</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form What time is it.pdf">
+      <publishTime>12/13/2018 14:31:44</publishTime>
+    </File>
+    <File Include="PDF/Teacher Form Where is the.pdf">
+      <publishTime>12/13/2018 14:31:44</publishTime>
+    </File>
+    <File Include="PDF/Technology Bingo Card A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Technology Bingo Card B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Technology Bingo Card C.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Technology Bingo Card D.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Technology Bingo Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/test_test12  _-.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/The Boyfriend Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/The Boyfriend.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/The Twins Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/This Weekend Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/This weekend.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Tsunamis Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Weather Bingo Card A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Weather Bingo Card B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Weather Bingo Card C.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Weather Bingo Card D.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/Weather Bingo Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/What am I doing A.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/What Am I Doing Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/What am I doing B.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/What am I doing C.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/What am I doing D.pdf">
+      <publishTime>02/24/2019 09:59:48</publishTime>
+    </File>
+    <File Include="PDF/What Time Is It Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/When Parents Name Babies Teacher Independent.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Where is the A.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Where Is The Activity Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Where is the B.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  10.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  11.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  12.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  13.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  14.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  15.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  16.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  17.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  18.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  19.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  2.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  20.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  21.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  22.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  23.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  24.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  25.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  26.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  27.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  28.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  29.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  3.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  30.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  31.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  32.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  33.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  34.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  35.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  36.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  37.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  38.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  39.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  4.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  40.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  5.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  6.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  7.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  8.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I  9.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who Am I 1.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PDF/Who am I Teacher Classroom.pdf">
+      <publishTime>02/24/2019 09:59:49</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>02/24/2019 10:51:18</publishTime>
+    </File>
+    <File Include="ReplaceFile.aspx">
+      <publishTime>02/10/2019 16:24:03</publishTime>
+    </File>
+    <File Include="SelectEnvironment.aspx">
+      <publishTime>12/10/2018 01:33:13</publishTime>
+    </File>
+    <File Include="SelectFile.aspx">
+      <publishTime>02/09/2019 18:13:11</publishTime>
+    </File>
+    <File Include="SelectTopic.aspx">
+      <publishTime>12/10/2018 01:33:13</publishTime>
+    </File>
+    <File Include="SelectUser.aspx">
+      <publishTime>12/10/2018 01:33:13</publishTime>
+    </File>
+    <File Include="support.html">
+      <publishTime>02/23/2019 19:43:33</publishTime>
+    </File>
+    <File Include="Topics/colors.php">
+      <publishTime>12/13/2018 14:34:31</publishTime>
+    </File>
+    <File Include="Topics/topicQuery.php">
+      <publishTime>02/15/2019 20:25:19</publishTime>
+    </File>
+    <File Include="Users/colors.php">
+      <publishTime>12/13/2018 14:34:43</publishTime>
+    </File>
+    <File Include="Users/userQuery.php">
+      <publishTime>12/13/2018 14:34:43</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>02/09/2019 18:26:59</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

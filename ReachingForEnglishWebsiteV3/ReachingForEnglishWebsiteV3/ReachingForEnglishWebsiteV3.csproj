@@ -1,0 +1,549 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{66DD54AE-9FB8-4416-A939-55058B703D77}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReachingForEnglishWebsiteV3</RootNamespace>
+    <AssemblyName>ReachingForEnglishWebsiteV3</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <IncludeIisSettings>true</IncludeIisSettings>
+    <FilesToIncludeForPublish>AllFilesInTheProject</FilesToIncludeForPublish>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System.Threading.Tasks.Dataflow, Version=4.5.24.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddDeleteSurvey.aspx" />
+    <Content Include="AddTopic.aspx" />
+    <Content Include="Audio\Addiction_To_Social_Media.MP3" />
+    <Content Include="Audio\Addiction_To_Social_Media_Teacher_Independent.MP3" />
+    <Content Include="Audio\A_Good_Friend.MP3" />
+    <Content Include="Audio\A_Good_Friend_Teacher_Indepedent.MP3" />
+    <Content Include="Audio\A_Good_House.MP3" />
+    <Content Include="Audio\A_Good_House_Teacher_Independent.MP3" />
+    <Content Include="Audio\A_good_job_for_you.mp3" />
+    <Content Include="Audio\A_Good_Job_For_You_Teacher_Independent.mp3" />
+    <Content Include="Audio\Boyfriend.MP3" />
+    <Content Include="Audio\Buying_a_Dress.MP3" />
+    <Content Include="Audio\Buying_a_Dress_Teacher_Independent.MP3" />
+    <Content Include="Audio\Clean_Water.MP3" />
+    <Content Include="Audio\Clean_Water_Teacher_Independent.MP3" />
+    <Content Include="Audio\Copy of Taking_a_Class.MP3" />
+    <Content Include="Audio\Creating_a_Life_Plan.MP3" />
+    <Content Include="Audio\Creating_a_Life_Plan_Teacher_Independent.MP3" />
+    <Content Include="Audio\Cultural_Differences.MP3" />
+    <Content Include="Audio\Cultural_Differences_Teacher_Independent.MP3" />
+    <Content Include="Audio\Fighting_For_Girls_Rights_Teacher_Independent.MP3" />
+    <Content Include="Audio\Food_For_Our_Party.MP3" />
+    <Content Include="Audio\Food_For_Our_Party_Teacher_Independent.MP3" />
+    <Content Include="Audio\food_for_party.MP3" />
+    <Content Include="Audio\Free_Time.MP3" />
+    <Content Include="Audio\Free_Time_Teacher_Independent.MP3" />
+    <Content Include="Audio\Getting_started_first_day_on_job.MP3" />
+    <Content Include="Audio\Getting_Started_Teacher_Independent.MP3" />
+    <Content Include="Audio\Going_to_Rivas.MP3" />
+    <Content Include="Audio\Going_To_Rivas_Teacher_Independent.MP3" />
+    <Content Include="Audio\good_house.MP3" />
+    <Content Include="Audio\Human_Rights.MP3" />
+    <Content Include="Audio\Kids_who_make_a_difference.MP3" />
+    <Content Include="Audio\Kids_Who_Make_A_Difference_Teacher_Independent.MP3" />
+    <Content Include="Audio\Lost.MP3" />
+    <Content Include="Audio\Lost_Teacher_Independent.MP3" />
+    <Content Include="Audio\Making_Plans_My_Party.MP3" />
+    <Content Include="Audio\making_plans_my_party_.MP3" />
+    <Content Include="Audio\Mark_Twain_Nicaraguan_visitor.mp3" />
+    <Content Include="Audio\Mark_Twain_Nicaraguan_Visitor_Teacher_Independent.mp3" />
+    <Content Include="Audio\My_Cousin_s_Visit.MP3" />
+    <Content Include="Audio\My_Cousin_Visits_Teacher_Indepedent.MP3" />
+    <Content Include="Audio\My_Party_Next_Weekend_Teacher_Independent.MP3" />
+    <Content Include="Audio\My_Town.MP3" />
+    <Content Include="Audio\My_Town_Teacher_Independent.MP3" />
+    <Content Include="Audio\National_Flags_Teacher_Indenpendent.MP3" />
+    <Content Include="Audio\Occupations_a_good_job.MP3" />
+    <Content Include="Audio\Paper_And_A_Pencil_Teacher_Independent.MP3" />
+    <Content Include="Audio\Paper_and_Pencil.MP3" />
+    <Content Include="Audio\Planning_Transportation.MP3" />
+    <Content Include="Audio\Planning_Transportation_Teacher_Independent.MP3" />
+    <Content Include="Audio\Sick.mp3" />
+    <Content Include="Audio\Sick_Teacher_Independent.mp3" />
+    <Content Include="Audio\Taking_A_Class_Teacher_Independent.MP3" />
+    <Content Include="Audio\The_Boyfriend_Teacher_Independent.MP3" />
+    <Content Include="Audio\The_Twins.MP3" />
+    <Content Include="Audio\The_Twins_Teacher_Independent.MP3" />
+    <Content Include="Audio\This_Weekend.MP3" />
+    <Content Include="Audio\This_Weekend_Teacher_Independent.MP3" />
+    <Content Include="Audio\Tsunamis.mp3" />
+    <Content Include="Audio\Tsunamis_Teacher_Independent.mp3" />
+    <Content Include="Audio\What_Are_Naming_Laws.MP3" />
+    <Content Include="Audio\When_Parents_Name_Babies_Teacher_Independent.MP3" />
+    <Content Include="Audio\Which_Flag_Does_She_Want.MP3" />
+    <Content Include="ChooseFile.aspx" />
+    <Content Include="credentials.txt" />
+    <Content Include="DeleteTopic.aspx" />
+    <Content Include="EnterLessonName.aspx" />
+    <Content Include="EnterText.aspx" />
+    <Content Include="Environment\colors.php" />
+    <Content Include="Environment\envQuery.php" />
+    <Content Include="favicon.ico" />
+    <Content Include="Home.aspx" />
+    <Content Include="Lessons\colors.php" />
+    <Content Include="Lessons\lessonQuery.php" />
+    <Content Include="Login.aspx" />
+    <Content Include="FileViewer.aspx" />
+    <Content Include="ReplaceFile.aspx" />
+    <Content Include="Script\colors.php" />
+    <Content Include="Script\scriptQuery.php" />
+    <Content Include="SelectFile.aspx" />
+    <Content Include="SelectEnvironment.aspx" />
+    <Content Include="SelectTopic.aspx" />
+    <Content Include="SelectUser.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="support.html" />
+    <Content Include="Topics\colors.php" />
+    <Content Include="Topics\topicQuery.php" />
+    <Content Include="Users\colors.php" />
+    <Content Include="Users\userQuery.php" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddDeleteSurvey.aspx.cs">
+      <DependentUpon>AddDeleteSurvey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddDeleteSurvey.aspx.designer.cs">
+      <DependentUpon>AddDeleteSurvey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddTopic.aspx.cs">
+      <DependentUpon>AddTopic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddTopic.aspx.designer.cs">
+      <DependentUpon>AddTopic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseFile.aspx.cs">
+      <DependentUpon>ChooseFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChooseFile.aspx.designer.cs">
+      <DependentUpon>ChooseFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteTopic.aspx.cs">
+      <DependentUpon>DeleteTopic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DeleteTopic.aspx.designer.cs">
+      <DependentUpon>DeleteTopic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnterLessonName.aspx.cs">
+      <DependentUpon>EnterLessonName.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnterLessonName.aspx.designer.cs">
+      <DependentUpon>EnterLessonName.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EnterText.aspx.cs">
+      <DependentUpon>EnterText.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EnterText.aspx.designer.cs">
+      <DependentUpon>EnterText.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FileViewer.aspx.cs">
+      <DependentUpon>FileViewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FileViewer.aspx.designer.cs">
+      <DependentUpon>FileViewer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReplaceFile.aspx.cs">
+      <DependentUpon>ReplaceFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReplaceFile.aspx.designer.cs">
+      <DependentUpon>ReplaceFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectFile.aspx.cs">
+      <DependentUpon>SelectFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectFile.aspx.designer.cs">
+      <DependentUpon>SelectFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectEnvironment.aspx.cs">
+      <DependentUpon>SelectEnvironment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectEnvironment.aspx.designer.cs">
+      <DependentUpon>SelectEnvironment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectTopic.aspx.cs">
+      <DependentUpon>SelectTopic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectTopic.aspx.designer.cs">
+      <DependentUpon>SelectTopic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectUser.aspx.cs">
+      <DependentUpon>SelectUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectUser.aspx.designer.cs">
+      <DependentUpon>SelectUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <Content Include="PDF\A Good Friend Teacher Independent.pdf" />
+    <Content Include="PDF\A Good House Teacher Independent.pdf" />
+    <Content Include="PDF\A Good House.pdf" />
+    <Content Include="PDF\A Good Job For You Teacher Independent.pdf" />
+    <Content Include="PDF\A Good job for you.pdf" />
+    <Content Include="PDF\Addiction To Social Media Teacher Independent.pdf" />
+    <Content Include="PDF\Buying A Dress Teacher Independent.pdf" />
+    <Content Include="PDF\Buying a dress.pdf" />
+    <Content Include="PDF\Choose A Tour A.pdf" />
+    <Content Include="PDF\Choose A Tour Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\Choose A Tour B.pdf" />
+    <Content Include="PDF\Choose A Tour C.pdf" />
+    <Content Include="PDF\Choose A Tour D.pdf" />
+    <Content Include="PDF\Clean Water Teacher Independent.pdf" />
+    <Content Include="PDF\Colors Around The World A.pdf" />
+    <Content Include="PDF\Colors Around The World B.pdf" />
+    <Content Include="PDF\Colors Around The World Teacher Classroom.pdf" />
+    <Content Include="PDF\Creating a Life Plan Teacher Independent.pdf" />
+    <Content Include="PDF\Cultural Differences Teacher Indepedent.pdf" />
+    <Content Include="PDF\Do You Know A.pdf" />
+    <Content Include="PDF\Do You Know Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\Do You Know B.pdf" />
+    <Content Include="PDF\Do Your Work Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\Environment Interview Question 1.pdf" />
+    <Content Include="PDF\Environment Interview Question 10.pdf" />
+    <Content Include="PDF\Environment Interview Question 11.pdf" />
+    <Content Include="PDF\Environment Interview Question 12.pdf" />
+    <Content Include="PDF\Environment Interview Question 13.pdf" />
+    <Content Include="PDF\Environment Interview Question 2.pdf" />
+    <Content Include="PDF\Environment Interview Question 3.pdf" />
+    <Content Include="PDF\Environment Interview Question 4.pdf" />
+    <Content Include="PDF\Environment Interview Question 5.pdf" />
+    <Content Include="PDF\Environment Interview Question 6.pdf" />
+    <Content Include="PDF\Environment Interview Question 7.pdf" />
+    <Content Include="PDF\Environment Interview Question 8.pdf" />
+    <Content Include="PDF\Environment Interview Question 9.pdf" />
+    <Content Include="PDF\Environment Interviews Teacher Classroom.pdf" />
+    <Content Include="PDF\Family Trip A.pdf" />
+    <Content Include="PDF\Family Trip B.pdf" />
+    <Content Include="PDF\Family Trip C.pdf" />
+    <Content Include="PDF\Family Trip D.pdf" />
+    <Content Include="PDF\Family Trip Teacher Classroom.pdf" />
+    <Content Include="PDF\Fighting For Girls Rights Teacher Independent.pdf" />
+    <Content Include="PDF\Find The Differences A.pdf" />
+    <Content Include="PDF\Find The Differences Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\Find The Differences B.pdf" />
+    <Content Include="PDF\Flags Of The World A.pdf" />
+    <Content Include="PDF\Flags Of The World Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\Flags Of The World B.pdf" />
+    <Content Include="PDF\Flags Of The World C.pdf" />
+    <Content Include="PDF\Flags Of The World D.pdf" />
+    <Content Include="PDF\Food For Our Party Teacher Independent.pdf" />
+    <Content Include="PDF\Food for our party.pdf" />
+    <Content Include="PDF\Free Time Teacher Independent.pdf" />
+    <Content Include="PDF\Free Time.pdf" />
+    <Content Include="PDF\Fun Activities Bingo 2 Teacher Classroom.pdf" />
+    <Content Include="PDF\Fun Activities Bingo Card A.pdf" />
+    <Content Include="PDF\Fun Activities Bingo Card B.pdf" />
+    <Content Include="PDF\Fun Activities Bingo Card C.pdf" />
+    <Content Include="PDF\Fun Activities Bingo Card D.pdf" />
+    <Content Include="PDF\Fun Activities Bingo Teacher Classroom.pdf" />
+    <Content Include="PDF\Getting Started Teacher Independent.pdf" />
+    <Content Include="PDF\Getting started.pdf" />
+    <Content Include="PDF\Going To Rivas Teacher Independent.pdf" />
+    <Content Include="PDF\Going to Rivas.pdf" />
+    <Content Include="PDF\Human Rights Teacher Classroom.pdf" />
+    <Content Include="PDF\I Am Looking For A.pdf" />
+    <Content Include="PDF\I Am Looking For Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\I Am Looking For B.pdf" />
+    <Content Include="PDF\I Am Looking For C.pdf" />
+    <Content Include="PDF\Important places Bingo Card A%281%29.pdf" />
+    <Content Include="PDF\Important Places Bingo Card A.pdf" />
+    <Content Include="PDF\Important Places Bingo Card B.pdf" />
+    <Content Include="PDF\Important Places Bingo Card C.pdf" />
+    <Content Include="PDF\Important Places Bingo Card D.pdf" />
+    <Content Include="PDF\Important Places Bingo Teacher Classroom.pdf" />
+    <Content Include="PDF\It Hurts 1.pdf" />
+    <Content Include="PDF\It Hurts 2.pdf" />
+    <Content Include="PDF\It Hurts 3.pdf" />
+    <Content Include="PDF\It Hurts 4.pdf" />
+    <Content Include="PDF\It Hurts 5.pdf" />
+    <Content Include="PDF\It Hurts 6.pdf" />
+    <Content Include="PDF\It Hurts 7.pdf" />
+    <Content Include="PDF\It Hurts Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\Jobs Bingo Card A.pdf" />
+    <Content Include="PDF\Jobs Bingo Card B.pdf" />
+    <Content Include="PDF\Jobs Bingo Card C.pdf" />
+    <Content Include="PDF\Jobs Bingo Card D.pdf" />
+    <Content Include="PDF\Kids Who Make A Difference Teacher Independent.pdf" />
+    <Content Include="PDF\Life Plan A.pdf" />
+    <Content Include="PDF\Life Plan B.pdf" />
+    <Content Include="PDF\Life Plan C.pdf" />
+    <Content Include="PDF\Life Plan D.pdf" />
+    <Content Include="PDF\Life Plan E.pdf" />
+    <Content Include="PDF\Life Plan F.pdf" />
+    <Content Include="PDF\Life Plan G.pdf" />
+    <Content Include="PDF\Life Plan H.pdf" />
+    <Content Include="PDF\Life Plan I.pdf" />
+    <Content Include="PDF\Life Plan J.pdf" />
+    <Content Include="PDF\Life Plan K.pdf" />
+    <Content Include="PDF\Life Plan L.pdf" />
+    <Content Include="PDF\Life Plan M.pdf" />
+    <Content Include="PDF\Life Plan N.pdf" />
+    <Content Include="PDF\Life Plan O.pdf" />
+    <Content Include="PDF\Life Plan P.pdf" />
+    <Content Include="PDF\Life Plan Q.pdf" />
+    <Content Include="PDF\Life Plan R.pdf" />
+    <Content Include="PDF\Life Plan S.pdf" />
+    <Content Include="PDF\Life Plan T.pdf" />
+    <Content Include="PDF\Life Plan U.pdf" />
+    <Content Include="PDF\Life Plans Teacher Classroom.pdf" />
+    <Content Include="PDF\Lost Teacher Independent.pdf" />
+    <Content Include="PDF\Lost.pdf" />
+    <Content Include="PDF\Mark Twain Nicaraguan Visitor Teacher Independent.pdf" />
+    <Content Include="PDF\My Cousin Visits Teacher Independent.pdf" />
+    <Content Include="PDF\My cousins visit.pdf" />
+    <Content Include="PDF\My Party Next Week Teacher Independent.pdf" />
+    <Content Include="PDF\My party next week.pdf" />
+    <Content Include="PDF\My Room A.pdf" />
+    <Content Include="PDF\My Room Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\My Room B.pdf" />
+    <Content Include="PDF\My Town Teacher Independent.pdf" />
+    <Content Include="PDF\My town.pdf" />
+    <Content Include="PDF\National Flags Teacher Independent.pdf" />
+    <Content Include="PDF\National flags.pdf" />
+    <Content Include="PDF\On My Plate Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\On My Plate.pdf" />
+    <Content Include="PDF\Paper And A Pencil Teacher Form .pdf" />
+    <Content Include="PDF\Paper and a pencil.pdf" />
+    <Content Include="PDF\Paper_And_A_Pencil_Teacher_Independent.pdf" />
+    <Content Include="PDF\Parenting Around The World Interview A.pdf" />
+    <Content Include="PDF\Parenting Around The World Interview B.pdf" />
+    <Content Include="PDF\Parenting Around The World Interview C.pdf" />
+    <Content Include="PDF\Parenting Around The World Interview D.pdf" />
+    <Content Include="PDF\Parenting Around The World Teacher Classroom.pdf" />
+    <Content Include="PDF\Parents and Children Debate Teacher Classroom.pdf" />
+    <Content Include="PDF\Pictures Of Community A.pdf" />
+    <Content Include="PDF\Pictures Of Community B.pdf" />
+    <Content Include="PDF\Pictures of Community Teacher Classroom.pdf" />
+    <Content Include="PDF\Planning Our Weekend Teacher Classroom.pdf" />
+    <Content Include="PDF\Planning Our Weekend.pdf" />
+    <Content Include="PDF\Planning Transportation Teacher Independent.pdf" />
+    <Content Include="PDF\Planning transportation.pdf" />
+    <Content Include="PDF\Road Trip A.pdf" />
+    <Content Include="PDF\Road Trip Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\Road Trip B.pdf" />
+    <Content Include="PDF\Same Closet A.pdf" />
+    <Content Include="PDF\Same Closet Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\Same Closet B.pdf" />
+    <Content Include="PDF\Sick Teacher Independent.pdf" />
+    <Content Include="PDF\Sick.pdf" />
+    <Content Include="PDF\Similarities And Differences A.pdf" />
+    <Content Include="PDF\Similarities and Differences Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\Similarities And Differences B.pdf" />
+    <Content Include="PDF\Similarities And Differences C.pdf" />
+    <Content Include="PDF\Similarities And Differences D.pdf" />
+    <Content Include="PDF\Taking A Class Teacher Independent.pdf" />
+    <Content Include="PDF\Taking a Class.pdf" />
+    <Content Include="PDF\Technology Bingo Card A.pdf" />
+    <Content Include="PDF\Technology Bingo Card B.pdf" />
+    <Content Include="PDF\Technology Bingo Card C.pdf" />
+    <Content Include="PDF\Technology Bingo Card D.pdf" />
+    <Content Include="PDF\Technology Bingo Teacher Classroom.pdf" />
+    <Content Include="PDF\The Boyfriend Teacher Independent.pdf" />
+    <Content Include="PDF\The Boyfriend.pdf" />
+    <Content Include="PDF\The Twins Teacher Independent.pdf" />
+    <Content Include="PDF\This Weekend Teacher Independent.pdf" />
+    <Content Include="PDF\This weekend.pdf" />
+    <Content Include="PDF\Tsunamis Teacher Independent.pdf" />
+    <Content Include="PDF\Weather Bingo Card A.pdf" />
+    <Content Include="PDF\Weather Bingo Card B.pdf" />
+    <Content Include="PDF\Weather Bingo Card C.pdf" />
+    <Content Include="PDF\Weather Bingo Card D.pdf" />
+    <Content Include="PDF\Weather Bingo Teacher Classroom.pdf" />
+    <Content Include="PDF\What Am I Doing A.pdf" />
+    <Content Include="PDF\What Am I Doing Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\What Am I Doing B.pdf" />
+    <Content Include="PDF\What Am I Doing C.pdf" />
+    <Content Include="PDF\What Am I Doing D.pdf" />
+    <Content Include="PDF\What Time Is It Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\When Parents Name Babies Teacher Independent.pdf" />
+    <Content Include="PDF\Where Is The A.pdf" />
+    <Content Include="PDF\Where Is The Activity Teacher Classroom.pdf" />
+    <Content Include="PDF\Where Is The B.pdf" />
+    <Content Include="PDF\Who Am I  10.pdf" />
+    <Content Include="PDF\Who Am I  11.pdf" />
+    <Content Include="PDF\Who Am I  12.pdf" />
+    <Content Include="PDF\Who Am I  13.pdf" />
+    <Content Include="PDF\Who Am I  14.pdf" />
+    <Content Include="PDF\Who Am I  15.pdf" />
+    <Content Include="PDF\Who Am I  16.pdf" />
+    <Content Include="PDF\Who Am I  17.pdf" />
+    <Content Include="PDF\Who Am I  18.pdf" />
+    <Content Include="PDF\Who Am I  19.pdf" />
+    <Content Include="PDF\Who Am I  2.pdf" />
+    <Content Include="PDF\Who Am I  20.pdf" />
+    <Content Include="PDF\Who Am I  21.pdf" />
+    <Content Include="PDF\Who Am I  22.pdf" />
+    <Content Include="PDF\Who Am I  23.pdf" />
+    <Content Include="PDF\Who Am I  24.pdf" />
+    <Content Include="PDF\Who Am I  25.pdf" />
+    <Content Include="PDF\Who Am I  26.pdf" />
+    <Content Include="PDF\Who Am I  27.pdf" />
+    <Content Include="PDF\Who Am I  28.pdf" />
+    <Content Include="PDF\Who Am I  29.pdf" />
+    <Content Include="PDF\Who Am I  3.pdf" />
+    <Content Include="PDF\Who Am I  30.pdf" />
+    <Content Include="PDF\Who Am I  31.pdf" />
+    <Content Include="PDF\Who Am I  32.pdf" />
+    <Content Include="PDF\Who Am I  33.pdf" />
+    <Content Include="PDF\Who Am I  34.pdf" />
+    <Content Include="PDF\Who Am I  35.pdf" />
+    <Content Include="PDF\Who Am I  36.pdf" />
+    <Content Include="PDF\Who Am I  37.pdf" />
+    <Content Include="PDF\Who Am I  38.pdf" />
+    <Content Include="PDF\Who Am I  39.pdf" />
+    <Content Include="PDF\Who Am I  4.pdf" />
+    <Content Include="PDF\Who Am I  40.pdf" />
+    <Content Include="PDF\Who Am I  5.pdf" />
+    <Content Include="PDF\Who Am I  6.pdf" />
+    <Content Include="PDF\Who Am I  7.pdf" />
+    <Content Include="PDF\Who Am I  8.pdf" />
+    <Content Include="PDF\Who Am I  9.pdf" />
+    <Content Include="PDF\Who Am I 1.pdf" />
+    <Content Include="PDF\Who am I Teacher Classroom.pdf" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49486</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/ReachingForEnglishWebsiteV3</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
