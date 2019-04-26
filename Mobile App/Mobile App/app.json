@@ -1,0 +1,19 @@
+{
+   "expo": {
+    "name": "Reaching For English",
+    "icon": "./logo.png",
+    "version": "2.2.2",
+    "sdkVersion": "32.0.0",
+	"orientation": "portrait",
+    "ios": {
+      "bundleIdentifier": "com.reachingforenglish.reachingforenglish",
+	  "infoPlist": {
+	  "NSMicrophoneUsageDescription": "This app uses the microphone to allow the user to record themselves speaking English to help with learning. Reaching for English doesn't store or collect any data. All recordings are managed by the user."
+		},
+    },
+    "android": {
+      "package": "com.reaching4english.reaching4english",
+	  "versionCode": 15
+    }
+   }
+ }

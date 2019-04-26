@@ -10,6 +10,9 @@
     },
     "android": {
       "package": "com.reaching4english.reaching4english",
+	  "permissions": [
+		"WRITE_EXTERNAL_STORAGE" 
+		],
 	  "versionCode": 12
     }
    }
