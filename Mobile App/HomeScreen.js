@@ -21,7 +21,7 @@ class HomeScreen extends React.Component {
 	}
 
 	constructor(props){
-		super(props);
+		super(props); 
 		this.state = {
 			haveRecordingPermissions: false,
 		};
@@ -41,7 +41,7 @@ class HomeScreen extends React.Component {
 		}
 	}
 		
-	askForPermissions = async () => {
+	askForPermissions = async () => { 
 		const response = await Permissions.askAsync(Permissions.AUDIO_RECORDING);
 		this.setState({
 			haveRecordingPermissions: response.status === 'granted',

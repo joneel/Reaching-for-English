@@ -3,6 +3,7 @@ import { View, Text, Image, Linking } from 'react-native';
 import email from 'react-native-email';
 import styles from "./Styles.js";
 import {
+  MenuProvider,
   Menu,
   MenuOptions,
   MenuOption,

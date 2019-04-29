@@ -18,10 +18,10 @@ import PlayerScreen from "./PlayerScreen.js";
 import RecordingsScreen from "./RecordingsScreen.js";
 import MenuIcon from "./MenuIcon.js";
 import { FileSystem } from 'expo';
-import { createStackNavigator } from 'react-navigation';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
 import { MenuProvider } from 'react-native-popup-menu';
 	
-const RootNavigator = createStackNavigator({
+const RootNavigator = createAppContainer(createStackNavigator({
 	Home: {
 		screen:HomeScreen,
 		navigationOptions: {
@@ -76,7 +76,7 @@ const RootNavigator = createStackNavigator({
 			headerRight: <MenuIcon />
     	},
     },
-});
+}));
 
 export default class App extends React.Component {
 	
